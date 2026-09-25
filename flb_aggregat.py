@@ -29,7 +29,7 @@ import streamlit as st
 
 DATA = Path(__file__).resolve().parent / "data" / "flb_per_aar.csv"
 
-st.set_page_config(page_title="FLB — tildelinger per år", layout="wide")
+st.set_page_config(page_title="FLB, tildelinger per år", layout="wide")
 
 
 def kr(x: float) -> str:
@@ -47,7 +47,7 @@ if not DATA.exists():
 
 d = last(str(DATA))
 
-st.title("Fond for lyd og bilde — tildelinger per år")
+st.title("Fond for lyd og bilde, tildelinger per år")
 st.caption(
     "Norsk kassettavgiftsfond til og med 1999, Fond for lyd og bilde fra 2000. "
     "Nominelle kroner."
