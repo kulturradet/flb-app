@@ -1,0 +1,18 @@
+{
+  "bygget": "2026-09-25T12:40:31+00:00",
+  "kilde_fil": "tildelinger_1983_2025.parquet",
+  "kilde_sha256": "9854ad3c5378aac2a40ce0f6f24795471a7bcf394aacbbddb5557b7d70e18d94",
+  "aar_fra": 1983,
+  "aar_til": 2025,
+  "rader": 43,
+  "oppgitte_aar": [
+    2025
+  ],
+  "oppgitte_aar_overstyrte_rader": [
+    2025
+  ],
+  "merknader": {
+    "2025": "Totaltall for hele året fra økonomisystemet. Detaljserien dekker bare til og med juni 2025 (289 rader, 26 747 000 kr), og ville vist et halvt år som om det var et helt."
+  },
+  "rader_uten_belop_i_kilden": 0
+}
